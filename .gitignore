@@ -1,0 +1,39 @@
+# Ignore byte compiled files
+*.py[co]
+build
+dist
+*.egg-info
+
+# Ignore Eclipse IDE files
+.settings
+.project
+.pydevproject
+.directory
+
+# Ignore IDEA files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Profiling files
+*.prof
+*.cprof
+
+# Others
+PyPI*
+
+# Virtual environments
+env*/
+venv*/
+.venv*/
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.webp
