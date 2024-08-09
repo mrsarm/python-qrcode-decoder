@@ -14,7 +14,7 @@ try:
     with Image.open(sys.argv[1]) as file:
         img_dec = decode(file)
         if len(img_dec):
-            print(f"{img_dec[0].data.decode('utf-8')}")
+            print(img_dec[0].data.decode('utf-8'))
         else:
             print("Error: no QR Code detected in the image", file=sys.stderr)
 except Exception as e:
